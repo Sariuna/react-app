@@ -1,0 +1,48 @@
+
+.PostForm {
+  display: flex;
+  margin-top: 20px;
+}
+
+.PostForm_form {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.PostForm_input {
+  width: 100%;
+  padding-left: 80px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: white;
+  color: #9E9C9C;
+}
+
+.PostForm_ava {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.PostForm_button {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.button_img:before {
+  content: "\f1c5";
+}
+
+.button_music:before {
+  content: "\f001";
+}
+
+.button_video:before {
+  content: "\f03d";
+}
